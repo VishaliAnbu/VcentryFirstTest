@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke-Suite" duration-ms="30365" started-at="2020-08-20T04:49:30Z" finished-at="2020-08-20T04:50:01Z">
+    <groups>
+    </groups>
+    <test name="First Test" duration-ms="16249" started-at="2020-08-20T04:49:30Z" finished-at="2020-08-20T04:49:47Z">
+      <class name="gitTest.GitTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gitTest.GitTest@3f49dace]" name="loginTest" duration-ms="16206" started-at="2020-08-20T10:19:30Z" finished-at="2020-08-20T10:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- gitTest.GitTest -->
+    </test> <!-- First Test -->
+    <test name="Second Test" duration-ms="14079" started-at="2020-08-20T04:49:47Z" finished-at="2020-08-20T04:50:01Z">
+      <class name="gitTest1.GitTest1">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gitTest1.GitTest1@1e127982]" name="loginTest" duration-ms="14079" started-at="2020-08-20T10:19:47Z" finished-at="2020-08-20T10:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- gitTest1.GitTest1 -->
+    </test> <!-- Second Test -->
+  </suite> <!-- Smoke-Suite -->
+</testng-results>
